@@ -44,7 +44,14 @@ The project was inspired by Ben Awad: https://www.youtube.com/watch?v=I6ypD7qv3Z
 5. Build the Project
 
    a. Install [Node.js](https://nodejs.org/en/download/). It is recommended that you use `node v14.3.0` or newer.
+   
    b. Install [Yarn](https://classic.yarnpkg.com/en/docs/install). 
+   
+   c. Install all dependencies and package
+         ```
+          $ yarn install
+         ```
+      
    
 6. To start the server up and running
 
