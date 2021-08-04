@@ -47,7 +47,8 @@ The project was inspired by Ben Awad: https://www.youtube.com/watch?v=I6ypD7qv3Z
    
    b. Install [Yarn](https://classic.yarnpkg.com/en/docs/install). 
    
-   c. Install all dependencies and package
+   c. Install all dependencies and package by typing this to the terminal at root folder
+         
          ```
           $ yarn install
          ```
