@@ -23,7 +23,7 @@ The project was inspired by Ben Awad: https://www.youtube.com/watch?v=I6ypD7qv3Z
 3. MikroOrm as the main ORM tech
 4. ApolloServer
 5. Redis for storing cookies and user cache
-6. argon2 for password has
+6. argon2 for password hash
 7. Express server and express session
 8. Docker for devops and deploying processes
 
