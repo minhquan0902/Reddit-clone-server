@@ -47,7 +47,7 @@ const main = async () => {
         httpOnly: true,
         secure: __prod__, // cookie only works in https
         sameSite: "lax", //csrf: google this for more information
-        domain: __prod__ ? ".redditclonee.com" : undefined,
+        domain: __prod__ ? ".quanredditcloneee.xyz " : undefined,
       },
       saveUninitialized: false,
       secret: process.env.SESSION_SECRET,
