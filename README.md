@@ -70,6 +70,8 @@ The project was inspired by Ben Awad: https://www.youtube.com/watch?v=I6ypD7qv3Z
      
      
 ### When server up and running, can access Graphql Playground at Localhost:4000/graphql
+
+### Any issues, reach out to me at minhquan0902@gmail.com
    
    
   
