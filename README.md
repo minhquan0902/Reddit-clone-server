@@ -2,7 +2,8 @@
 
 Back end code for Reddit-clone
 
-![Github2](https://user-images.githubusercontent.com/58071533/128237195-1189e111-3093-4bba-860c-1d583e6c8c4a.png)
+![Github3](https://user-images.githubusercontent.com/58071533/128239582-9c7ad497-c73b-431e-aeb9-67f1725a9e82.png)
+
 
 
 
@@ -23,7 +24,7 @@ The project was inspired by Ben Awad: https://www.youtube.com/watch?v=I6ypD7qv3Z
 8. Docker for devops and deploying processes
 
 
-##Install the project locally
+## Install the project locally
 1. Install [PostgreSQL](https://www.postgresql.org/download/)
    - Use "postgres" as the password for user "postgres"
    - Setup the PATH variable in your operating system if the shell couldn't find "psql" or "createdb"
