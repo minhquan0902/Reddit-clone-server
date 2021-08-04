@@ -49,20 +49,21 @@ The project was inspired by Ben Awad: https://www.youtube.com/watch?v=I6ypD7qv3Z
 
   a) Open the first terminal for redis
   
-     ```sh
+     ```
         $ redis-server
      ```
      
      
   b) Open the second terminal to watch for changes watch
   
-     ```sh
+     ```
         $ yarn watch
      ```
      
      
   c) Start the server up and running
-     ```sh
+  
+     ```
         $ yarn dev
      ```
      
