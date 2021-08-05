@@ -49,7 +49,7 @@ const main = async () => {
         httpOnly: true,
         secure: __prod__, // cookie only works in https
         sameSite: "lax", //csrf: google this for more information\
-        domain: __prod__ ? ".reddit-clone-ten.vercel.app" : undefined,
+        domain: __prod__ ? ".quanredditcloneee.xyz" : undefined,
       },
       saveUninitialized: false,
 
