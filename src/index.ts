@@ -28,7 +28,7 @@ const main = async () => {
   // set up redis running
   const RedisStore = connectRedis(session);
   const redis = new Redis(process.env.REDIS_URL);
-  app.set("proxy", 1);
+  app.set("trust proxy", 1);
   app.use(
     cors({
       origin: process.env.CORS_ORIGIN,
@@ -47,7 +47,6 @@ const main = async () => {
         httpOnly: true,
         secure: __prod__, // cookie only works in https
         sameSite: "lax", //csrf: google this for more information
-        domain: __prod__ ? ".quanredditcloneee.xyz " : undefined,
       },
       saveUninitialized: false,
       secret: process.env.SESSION_SECRET,
